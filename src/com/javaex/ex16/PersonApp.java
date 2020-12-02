@@ -49,10 +49,10 @@ public class PersonApp {
 		//자기자신(자식)의 메소드만 나온다
 		
 		//케스팅 테스트
-				Person t01 = psArray[4];
-				// Student t02 = psArray[4];   //오류 양쪽의 자료형이 다름
-				Student t03 = (Student)psArray[4];
-				Person t04 = (Student)psArray[4]; //자동으로 업케스팅 된다. 눈에 안보이지만 (Person)(Student)psArray[4];이 된 것임
+		Person t01 = sArray[4];
+		// Student t02 = psArray[4];   //오류 양쪽의 자료형이 다름
+		Student t03 = (Student)sArray[4];
+		Person t04 = (Student)sArray[4]; //자동으로 업케스팅 된다. 눈에 안보이지만 (Person)(Student)psArray[4];이 된 것임
 		
 		
 	}

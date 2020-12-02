@@ -31,7 +31,7 @@ public class Student extends Person {
 	
 	//복잡한 로직으로 가정
 		public void showInfo2() {
-			System.out.println("이름:"+ getName() + ", 나이:"+ getAge() + ", 학교:" + schoolname);
+			System.out.println("이름:"+ getName() + ", 나이:"+ getAge() + ", 학교:" + schoolName);
 		}
 	
 	

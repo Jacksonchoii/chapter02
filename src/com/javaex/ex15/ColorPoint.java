@@ -2,7 +2,7 @@ package com.javaex.ex15;
 
 public class ColorPoint extends Point{
 
-	//필드
+		//필드
 		private String color;
 		
 		//생성자
@@ -31,13 +31,15 @@ public class ColorPoint extends Point{
 
 		//메소드 - 기본
 		public void showInfo() {
-	/*		System.out.println(getX());
-			System.out.println(getY());
-			System.out.println(getColor());
+		/*	
+	 	System.out.println(getX());
+		System.out.println(getY());
+		System.out.println(getColor());
 		}
-	*/
-			System.out.println("포인트:" + x + "," + y + "색상:"+color);	
-		}	//protected로 바뀌어 가능함.ㄴ
+		*/
+			
+		System.out.println("포인트:" + x + "," + y + "색상:"+color);	
+		}	//protected로 바뀌어도 됨
 		
 		@Override
 		public String toString() {

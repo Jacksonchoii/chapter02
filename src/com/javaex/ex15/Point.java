@@ -2,7 +2,7 @@ package com.javaex.ex15;
 
 public class Point {
 
-	//필드
+		//필드
 		protected int x;
 		protected int y;
 		

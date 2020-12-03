@@ -1,4 +1,4 @@
-package com.javaex.ex21;
+package com.javaex.ex22;
 
 public abstract class Shape {
 
@@ -34,7 +34,7 @@ public abstract class Shape {
 	}
 	
 	//메소드 일반
-	public abstract void draw();
+	//public abstract void draw();
 	public abstract double area();
 	
 }
